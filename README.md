@@ -5,9 +5,8 @@ Welcome to Watch Guesser, the ultimate watch enthusiast's quiz game! Test your k
 ## Features:
 
 - Stunning high-resolution images of iconic watch models.
-- Multiple-choice questions for each watch.
+- Multiple game modes.
 - Score tracking to see how well you know your watches.
-- A challenging quiz for watch enthusiasts of all levels.
 
 ## Getting Started:
 
