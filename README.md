@@ -22,7 +22,7 @@ Welcome to Watch Guesser, the ultimate watch enthusiast's quiz game! Test your k
 
 ## Credits:
 
-- This project uses images from big watch croporations. Please don't sue me.
+- This project uses images from big watch corporations. Please don't sue me.
 ## License:
 
 This project is licensed under the Creative Commons Zero v1.0 Universal License - see the `LICENSE.md` file for details.
