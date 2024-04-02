@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="test.css">
+        <title>WATCHGUESSER TEST</title>
+
+        <script type="module" src="watchData.js"></script>
+        <script type="module" src="Home.js"></script>        
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&display=swap" rel="stylesheet">
+        <link rel="icon" href="assets/Watcheswithoutwonders.png" type="assets/x-icon">
+
+    </head>
+
+    <div class="bigcon" id="watchimg">
+        <div class="valigngrey">
+          <div class="greycon con1"> 
+            <img class="brokenheart h1" src="assets/broken-heart.png" alt="?" height="35px" width="34px">
+            <img class="brokenheart h2" src="assets/broken-heart.png" alt="?" height="35px" width="34px">
+            <img class="brokenheart h3" src="assets/broken-heart.png" alt="?" height="35px" width="34px">
+          </div> 
+          <div class="greycon con2"> 
+            <div id="solution-text" class="solution-text">Real Watch Name</div>
+          </div>
+          <div class="greycon con3"> 
+            <div id="score-container">
+              <p class="textcon t1">HS: <span id="highscore">0</span></p>
+              <p class="textcon t2">|</p>
+              <p class="textcon t3">S: <span id="score">0</span></p>
+              <div class="textcon t4"><img id="info-img" class="info-img" src="assets/infov4.png" alt="Image couldn't load!" height="25px" width="25px"></div>
+           </div>
+          </div>
+        </div>
+
+        <div class="imgcon">
+          <img id="watch-image" class="uhrbild" src="" alt="Image couldn't load!" height="570px" width="570px">
+        </div>
+        <div class="centeralign">
+            <form>
+                <div class="inputfield">
+                    <div class="incon">
+                        <input id="user-answer" placeholder="Watch Name" class="realinput"  name="text" type="text">
+                    </div>
+                    <input id="submit-btn" class="submit-btn" type="submit" value="submit">
+                </div>
+            </form>
+        </div>
+      
+      </div>  
+
+</html>

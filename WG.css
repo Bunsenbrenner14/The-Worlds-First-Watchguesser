@@ -1,0 +1,346 @@
+/* Die Bäsics */
+/* Die Bäsics */
+/* Die Bäsics */
+/* Die Bäsics */
+/* Die Bäsics */
+/* Die Bäsics */
+html {
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-user-select: none;  
+    user-select: none;
+    height: 100%;
+    width: 100%;
+
+}
+body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+
+    background-color: #2E2E2E;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Koulen', cursive;
+    font-size: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    
+}
+.a {
+    color: white;
+    text-decoration: none;
+
+}
+.span {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+/* NAVbar */
+/* NAVbar */
+/* NAVbar */
+/* NAVbar */
+/* NAVbar */
+/* NAVbar */
+nav{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.WWW {
+    background: linear-gradient(to right, #E74D4D, #FF0048, #9E00FF, #3985DF);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+    z-index: 3;
+}
+.bigbigcon {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.bigcon {
+    display: flex;
+}
+
+.subcon {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.con {
+    background-color: black;
+    border-radius: 15px;
+    width: 300px;
+    height: 60px;
+    margin: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+
+    box-shadow: 4px 4px 0 2px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease;
+}
+
+
+.con2 {
+    width: 350px;
+    height: 60px;
+    position: relative; 
+    z-index: 2; 
+}
+
+
+.con4 {
+    width: 350px;
+    height: 60px;
+    position: absolute;
+
+    z-index: 1; 
+
+    margin: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-top: 20px !important;
+
+    top: 0;
+
+    box-shadow: 4px 4px 0 2px rgba(0, 0, 0, 0) !important;
+    animation: slideDown 0.5s ease forwards; 
+}
+svg{
+    fill: white;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* GameMode view */
+/* GameMode view */
+/* GameMode view */
+/* GameMode view */
+/* GameMode view */
+/* GameMode view */
+/* GameMode view */
+
+content { 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.aconGM {
+    width: auto;
+    height: auto;
+    display: column;
+}
+
+.OutConGM {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+
+  .bc {
+    width: 420px;
+    height: 160px;
+    background: rgba(0,0,0,1);
+    position: relative;
+    border-radius: 15px;
+    z-index: 2;
+    margin: 20px;
+
+    box-shadow: 4px 4px 0 2px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease;
+  }
+
+  .gc {
+    width: 120px;
+    height: 120px;
+    background: rgba(109,109,109,1);
+    margin-top: 20px;
+    margin-left: 20px;
+    position: absolute;
+    z-index: 3;
+    border-radius: 7.5px;
+  }
+
+  .rc {
+    width: 240px;
+    height: 120px;
+    background: rgba(199, 0, 0, 0);
+    right: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    border-radius: 7.5px;
+  }
+ 
+ .bt {
+    width: 260px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+    z-index: 3;
+    top: -8px;
+ }
+
+.st {
+    width: 225px;
+    color: rgba(136,136,136,1);
+    position: absolute;
+    top: 35px;
+    font-size: 15px;
+    text-align: center;
+    z-index: 3;
+}
+
+  .ic {
+    width: 70px;
+    height: 70px;
+    top: 25px;
+    left: 25px;
+    position: absolute;
+    z-index: 4;
+  }
+  
+
+  span {
+    text-align: center;
+}
+
+.bc:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+/* Footer */
+/* Footer */
+/* Footer */
+/* Footer */
+/* Footer */
+/* Footer */
+/* Footer */
+/* Footer */
+.footer {
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+    position: absolute;
+    
+
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+    display: flex;
+    flex-direction: column;
+}
+
+.fon {
+    background-color: black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+    box-shadow: 4px 4px 0 2px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease;
+}
+.fon1 {
+    width: 370px;
+    height: 45px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.fon2 {
+    width: 180px;
+    height: 45px;
+    margin-right: 5px;}
+.fon3 {
+    width: 180px;
+    height: 45px;
+    margin-left: 5px;
+}
+
+.FWWW {
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Koulen', cursive;
+    font-size: 20px;
+  }
+
+
+.submidfon {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+}

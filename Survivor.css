@@ -1,0 +1,709 @@
+/* Die Bäsics */
+/* Die Bäsics */
+/* Die Bäsics */
+/* Die Bäsics */
+/* Die Bäsics */
+/* Die Bäsics */
+html {
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-user-select: none;  
+    user-select: none;
+    height: 100%;
+    width: 100%;
+
+}
+body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+
+    background-color: #2E2E2E;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Koulen', cursive;
+    font-size: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+
+    flex: 1;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* NAVbar */
+/* NAVbar */
+/* NAVbar */
+/* NAVbar */
+/* NAVbar */
+/* NAVbar */
+.WWW {
+    background: linear-gradient(to right, #E74D4D, #FF0048, #9E00FF, #3985DF);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+    z-index: 3;
+}
+
+.bigbigcon {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.bigcon {
+    display: flex;
+}
+
+.subcon {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.con {
+    background-color: black;
+    border-radius: 15px;
+    width: 300px;
+    height: 60px;
+    margin: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+
+    box-shadow: 4px 4px 0 2px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease;
+}
+
+
+.con2 {
+    width: 350px;
+    height: 60px;
+    position: relative; 
+    z-index: 2; 
+}
+
+
+.con4 {
+    width: 350px;
+    height: 60px;
+    position: absolute;
+
+    z-index: 1; 
+
+    margin: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-top: 20px !important;
+
+    top: 0;
+
+    box-shadow: 4px 4px 0 2px rgba(0, 0, 0, 0) !important;
+    animation: slideDown 0.5s ease forwards; 
+}
+
+
+
+
+
+
+
+
+
+/* footer */
+/* footer */
+/* footer */
+/* footer */
+/* footer */
+/* footer */
+.footer {
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+    position: absolute;
+    
+
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+    display: flex;
+    flex-direction: column;
+}
+
+.fon {
+    background-color: black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+    box-shadow: 4px 4px 0 2px rgba(0, 0, 0, 0.25);
+
+  transition: transform 0.3s ease;
+}
+.fon1 {
+    width: 370px;
+    height: 45px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.fon2 {
+    width: 180px;
+    height: 45px;
+    margin-right: 5px;}
+.fon3 {
+    width: 180px;
+    height: 45px;
+    margin-left: 5px;
+}
+
+.FWWW {
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Koulen', cursive;
+    font-size: 20px;
+  }
+
+
+.submidfon {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+}
+
+
+svg{
+    fill: white;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+/* Middlething */
+/* Middlething */
+/* Middlething */
+/* Middlething */
+/* Middlething */
+/* Middlething */
+
+.bigcen {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: auto;
+    width: 100%;
+}
+
+.midcen {
+    width: 100%;
+    min-height: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.cen{
+    width: 300px;
+    height: 60px;
+    background-color: black;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    box-shadow: 4px 4px 0 2px rgba(0, 0, 0, 0.25);
+  
+    transition: transform 0.3s ease;
+}
+
+
+.midcen2 {
+    width: 1000px;
+    height: auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center; 
+}
+
+.impressum {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    height: auto;
+    width: 1000px;
+    font-size: 20px;
+    padding: 30px;
+
+    text-align: justify;
+
+    box-shadow: 4px 4px 0 2px rgba(0, 0, 0, 0.25);
+  
+    transition: transform 0.3s ease;
+
+
+    display: justify;
+    justify-content: center;
+    align-items: top;
+    margin-bottom: 200px;
+}
+
+.impressum-heading {
+    font-size: 24px;
+    font-weight: bold;
+    background: linear-gradient(to right, #E74D4D, #FF0048, #9E00FF, #3985DF);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+    display: inline-block; 
+}
+
+
+.bran {
+    color: #848484;
+}
+.cen2 {
+    color: #848484;
+}
+.cen3 {
+    color: #848484;
+    height: 300px !important;
+    align-items: top !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.stq2 {
+    color: white !important;
+}
+
+
+
+
+
+
+  a {
+    color: white;
+    text-decoration: none; /* no underline */
+  }
+
+.PPN {
+    border-radius: 7.5px;
+    transition: transform 0.3s ease;
+
+}
+
+
+
+.watchimg {
+    background-color: black;
+    width: 620px;
+    height: 800px !important;
+    height: auto;
+    box-shadow: 4px 4px 0 2px rgba(0, 0, 0, 0.25);
+    /* Add any other styles you want for the element */
+  
+    transition: transform 0.3s ease;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+}
+
+
+.imgframe {
+    width: 580px;
+    height: 580px;
+    overflow: hidden !important;
+    position: relative; /* Ensure relative positioning for the container */
+    border-radius: 7.5px;
+    margin-top: 200px;
+}
+
+.inputfield {
+    width: 350px;
+    height: 60px;
+    box-shadow: 4px 4px 0 2px rgba(0, 0, 0, 0.25);
+    background-color: black;
+    color: white;
+    margin: 20px;
+    border-radius: 15px;
+    font-size: 20px;
+    display: flex;
+    justify-content: left; /* Horizontally center */
+    align-items: center; /* Vertically center */
+}
+
+
+.smallcenQWG {
+    display: grid;
+    place-items: center;
+    min-height: 1000px;
+}
+
+
+#user-answer {
+    background-color: #ffffff00;
+    border: none;
+    outline: none;
+    margin: 10px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: auto;
+    font-size: 20px;
+    border-radius: 7.5px;
+    color: #fff;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Koulen', cursive;
+    background-color: #2E2E2E;
+  }
+
+  #submit-btn {
+    margin: 10px;
+    margin-left: 0px !important;
+    font-size: 20px;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Koulen', cursive;
+    background-color: black;
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+  }
+
+  .aligncon {
+    display: flex;
+    justify-content: left; /* Horizontally center */
+    align-items: center; /* Vertically center */
+  }
+
+  .form {
+    height: 200px;
+    width: auto;
+  }
+
+  #submit-btn {
+    border: 0;
+    background: none;
+    box-shadow: none;
+    border-radius: 0px;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Koulen', cursive;
+    font-size: 20px;
+
+  }
+
+
+
+
+  #solution-container {
+    background-color: black;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Koulen', cursive;
+    font-size: 20px;
+    height: 60px;
+    width: 300px;
+    min-width: 250px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    box-shadow: 4px 4px 0 2px rgba(0, 0, 0, 0.25);
+
+  }
+
+  #solution-text {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center !important; /* Vertically center */
+    margin: 0px;
+  }
+
+
+
+  div {
+    outline: 0px solid rgb(98, 0, 255) !important;
+}
+
+.LRCON {
+    display: table-column;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+
+#score-container {
+    background-color: black;
+    width: 200px;
+    height: 780px;
+    color: white;
+    margin: 30px;
+    margin-top: 0px !important;
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center !important; /* Vertically center */
+    box-shadow: 4px 4px 0 2px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+
+.valigncen {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important; /* Vertically center */
+}
+
+
+.greycon{ 
+    background-color: #000000;
+    width: 280px;
+    height: 40px;
+    margin: 0px;
+    border-radius: 7.5px;   
+    font-size: 23px;
+    color: #9e9e9e;
+
+}
+
+
+
+
+
+
+
+
+.ceno {
+    width: 300px;
+    height: 120px;
+    background-color: black;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    display: flex;
+    flex-direction: column; /* This makes items stack vertically */
+    align-items: center !important; /* Optional: Center items horizontally */
+    box-shadow: 4px 4px 0 2px rgba(0, 0, 0, 0.25);
+    /* Add any other styles you want for the element */
+
+    transition: transform 0.3s ease;
+}
+
+.STQ2 {
+    /* Add your text styles here */
+    color: white; /* Example text color */
+    font-size: 25px; /* Example font size */
+    text-align: center; /* Center the text horizontally */
+}
+
+.game-icon {
+    /* Add styles for the game mode icons here */
+    width: 50px; /* Adjust icon width as needed */
+    height: 50px; /* Adjust icon height as needed */
+    margin-top: 0px;
+    margin-bottom: 10px; /* Adjust the spacing between text and icon */
+    align-items: center; /* Optional: Center items horizontally */
+}
+
+
+#df {
+    align-items: center; /* Center vertically */
+    
+}
+
+
+.Testcon {
+    background-color: black;
+    box-shadow: 4px 4px 0 2px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column; /* Corrected to stack items vertically */
+    align-items: flex-start !important; /* Corrected to align items to the left */
+    justify-content: center; /* Horizontally center */
+    width: 300px;
+    height: 120px;
+}
+
+.Test2 {
+    background-color: #6d6d6d;
+    box-shadow: 4px 4px 0 2px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease;
+    border-radius: 7.5px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.game-icon2 {
+    width: 100px;
+    height: 100px;
+    transform: scale(0.7); 
+    align-items: center !important; 
+    justify-content: center; 
+}
+
+.OText {
+    flex: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* newdesign blocks top */
+/* newdesign blocks top */
+/* newdesign blocks top */
+/* newdesign blocks top */
+/* newdesign blocks top */
+/* newdesign blocks top */
+
+.aligner {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 620px;
+}
+
+
+.grayco {
+    width: 180px;
+    height: 40px;
+    border-radius: 7.5px;
+    background-color: #848484;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.gray1 {
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.gray2 {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.gray3 {
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* animations */
+/* animations */
+/* animations */
+/* animations */
+/* animations */
+/* animations */
+.fon:hover {
+    transform: scale(1.05);
+}
+
+.con:hover {
+    transform: scale(1.05);
+}
+
+.cen:hover {
+    transform: scale(1.05);
+}
+
+
+.Inputframe:hover {
+    transform: scale(1.05);
+}
+
+.bc:hover {
+    transform: scale(1.05);
+}
