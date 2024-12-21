@@ -1,5 +1,0 @@
-<div id="score-container">
-                <p>Score: <span id="score">0</span> 
-                    <br>
-                    Highscore: <span id="highscore">0</span></p>
-             </div>
